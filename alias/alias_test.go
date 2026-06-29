@@ -4,8 +4,9 @@ import (
 	"slices"
 	"testing"
 
-	uniq "github.com/gloo-foo/cmd-uniq/alias"
 	"github.com/gloo-foo/testable"
+
+	uniq "github.com/gloo-foo/cmd-uniq/alias"
 )
 
 // The alias package re-exports the constructor and flag constants under

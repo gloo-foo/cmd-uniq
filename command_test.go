@@ -4,9 +4,10 @@ import (
 	"strings"
 	"testing"
 
-	command "github.com/gloo-foo/cmd-uniq"
 	"github.com/gloo-foo/testable"
 	"github.com/gloo-foo/testable/assertion"
+
+	command "github.com/gloo-foo/cmd-uniq"
 )
 
 func lines(t *testing.T, input string, opts ...any) []string {

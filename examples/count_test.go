@@ -3,8 +3,9 @@ package uniq_test
 import (
 	"fmt"
 
-	command "github.com/gloo-foo/cmd-uniq"
 	"github.com/gloo-foo/testable"
+
+	command "github.com/gloo-foo/cmd-uniq"
 )
 
 func ExampleUniq_count() {
